@@ -670,18 +670,21 @@ span {
     .footer_logo>h4 {
         margin: 0;
     }
-    .footer_menu {
-        border: 1px solid #FFFFFF;
-        padding: 30px 50px;
-        flex-direction: column;
-        row-gap: 30px;
+    /*.footer_menu {*/
+    /*    border: 1px solid #FFFFFF;*/
+    /*    padding: 30px 50px;*/
+    /*    flex-direction: column;*/
+    /*    row-gap: 30px;*/
 
-    }
+    /*}*/
     .footer_menu>div {
         display: flex;
         flex-direction: row;
         gap:30px;
         justify-content: space-between;
+        padding: 30px 50px;
+        border: 1px solid #ff0000;
+
     }
     
 }
