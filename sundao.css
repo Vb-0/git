@@ -647,6 +647,14 @@ span {
         width: 45px;
         height: 45px;
     }
+    .square__d>h3 {
+        font-size: 24px;
+        
+    }
+
+    .square__d>h1 {
+        font-size: 36px;
+    }
     .img_sun img {
         width: 113px;
         bottom: 570px;
@@ -676,7 +684,7 @@ span {
         gap:30px;
         justify-content: space-between;
         padding: 30px 50px;
-        border: 1px solid #ff0000;
+        
 
     }
     
