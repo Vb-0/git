@@ -21,8 +21,8 @@ header> .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(33.39deg, rgba(26, 7, 55, 0.2) 18.91%, rgba(239, 86, 30, 0.4) 101.12%);
-
+    /* background: linear-gradient(33.39deg, rgba(26, 7, 55, 0.2) 18.91%, rgba(239, 86, 30, 0.4) 101.12%); */
+    backdrop-filter: blur(10px);
 }
 .logo {
     display: flex;
@@ -113,7 +113,8 @@ header> .container {
 .square {
     display: flex;
     border: 1px solid #FFFFFF;
-    background: linear-gradient(94.16deg, rgba(22, 9, 4, 0.5) -2.47%, rgba(139, 65, 22, 0) 314.69%);
+    /* background: linear-gradient(94.16deg, rgba(22, 9, 4, 0.5) -2.47%, rgba(139, 65, 22, 0) 314.69%); */
+    backdrop-filter: blur(10px);
 }
 .square>div {
     margin: 0;
@@ -170,6 +171,7 @@ span {
     background-image: url(./img/bg__2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: invert(1);
 }
 .border_ab {
     display: flex;
@@ -224,7 +226,8 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fcd689;
+    /* background-color: #fcd689; */
+    backdrop-filter: blur(10px);
     color: #FFFFFF;
 }
 .square__a img {
@@ -400,8 +403,10 @@ span {
     background-image: url(./img/bg__4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     height: auto;
     position: relative;
+    backdrop-filter: invert(1);
 }
 
 .title__none {
@@ -490,8 +495,8 @@ span {
 .footer {
     width: 100%;
     /* background-color: #e7a983; */
-    background: linear-gradient(105.88deg, rgba(22, 9, 4, 0.57) -3.11%, rgba(139, 65, 22, 0) 395.15%);
-
+    /* background: linear-gradient(105.88deg, rgba(22, 9, 4, 0.57) -3.11%, rgba(139, 65, 22, 0) 395.15%); */
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -683,8 +688,6 @@ span {
         flex-direction: row;
         gap:30px;
         justify-content: space-between;
-        padding: 30px 50px;
-        
 
     }
     
