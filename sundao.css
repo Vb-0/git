@@ -8,7 +8,7 @@ html, body {
 }
 .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 10 auto;
 }
 
 header {
@@ -664,10 +664,10 @@ span {
         margin: 0;
     }
     .footer_menu {
-        border: 1px solid #FFFFFF;
-        padding: 30px 50px;
-        flex-direction: column;
-        row-gap: 30px;
+       border: 1px solid #FFFFFF;
+       padding: 30px 50px;
+       flex-direction: column;
+       row-gap: 30px;
 
     }
     .footer_menu>div {
@@ -675,6 +675,9 @@ span {
         flex-direction: row;
         gap:30px;
         justify-content: space-between;
+        padding: 30px 50px;
+        border: 1px solid #ff0000;
+
     }
     
 }
